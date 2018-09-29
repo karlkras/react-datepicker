@@ -209,7 +209,7 @@ export default class DatePicker extends React.Component {
       !prevState.focused &&
       hasSelectionChanged(prevProps.selected, this.props.selected)
     ) {
-      this.setState({ inputValue: null });
+      this.setState({ inputValue: '28/12/2018' });
     }
   }
 
